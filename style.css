@@ -1,0 +1,19 @@
+
+@font-face {
+    font-family: yuccafont;
+    src: url("./Magnetik-Light.otf");
+}
+:root{
+    --primary-color:WHITE;
+    --second-color: #1d1d1b;
+    --primary-text-color: #1d1d1b;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-color);
+}
+.flex{
+    display: flex;
+}
